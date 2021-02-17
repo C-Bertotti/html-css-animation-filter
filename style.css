@@ -64,15 +64,18 @@
 .ex-7-img {
     transition: filter 0.5s;
 }
-.ex-7-img:hover {
+.ex-7-img:hover,
+.ex-8-img:hover,
+.ex-9-img:hover {
     filter: saturate(.5) sepia(.5);
 }
 
-.ex-8-img {
+.ex-8-img, .ex-9-img {
     transition: all 0.5s;
 }
-.ex-8-img:hover {
-    filter: saturate(.5) sepia(.5);
+
+.ex-8-img:hover,
+.ex-9-img:hover {
     border-radius: 10px;
 }
 
@@ -80,6 +83,10 @@
     margin: 50px 100px;
     width: 400px;
 }
+.ex-9-img:hover {
+    transform: scale(1.5);
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
